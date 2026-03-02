@@ -59,9 +59,3 @@ jupyter notebook shor_qec.ipynb
 The simulator reveals a **key real-world effect**: applying depolarizing noise to _all_ circuit elements (encoding + syndrome gates + measurements) means the correction overhead dominates at low physical error rates. This matches real hardware — fault-tolerant syndrome extraction is needed to achieve exponential suppression, not naive extraction.
 
 Theory ($p_L = 3p^2$) assumes perfect syndrome measurement. Simulation shows the true cost of circuit-level noise.
-
----
-
-## CV Bullet
-
-> "Developed quantum error correction simulator implementing Shor's 9-qubit code and 3-qubit repetition codes; demonstrated syndrome-based error decoding with 100% accuracy across all 9 physical qubit error locations and quantified the fault-tolerant overhead of circuit-level depolarizing noise using Qiskit Aer."
